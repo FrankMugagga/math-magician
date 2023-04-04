@@ -1,0 +1,2 @@
+# mathMagician
+the project
