@@ -1,2 +1,0 @@
-# mathMagician
-the project
