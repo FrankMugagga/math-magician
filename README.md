@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<!--[](https://img.shields.io/badge/Microverse-blueviolet) -->
 
 <div align="center">
 
@@ -24,8 +24,8 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
-|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/calc.png" alt="screenshot" width="auto" height="auto"/></div>|
+<!--|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="auto"/></div>|-->
 
 # 📗 Table of Contents
 
