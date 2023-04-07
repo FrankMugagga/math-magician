@@ -24,7 +24,7 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./src/assets/calc.png" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/calc2.png" alt="screenshot" width="auto" height="auto"/></div>|
 <!--|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="auto"/></div>|-->
 
 # 📗 Table of Contents
@@ -68,7 +68,7 @@ Read a random math-related quote.
       <li><a href="https://reactjs.org/">JavaScript</a></li>
       <li><a href="https://reactjs.org/">React</a></li>
       <li><a href="https://reactjs.org/">API</a></li>
-      <li><a href="https://reactjs.org/">Webpack 5</a></li>
+      <li><a href="https://reactjs.org/">Webpack</a></li>
       <li><a href="https://reactjs.org/">Jest Testing Framework</a></li>
     </ul>
 
@@ -76,7 +76,7 @@ Read a random math-related quote.
 ### Key Features <a name="key-features"></a>
 
 - **[Fetch and send data to an API]**
-**[Unit tests]**
+**[Perfom calculator functions]**
 
 
 
@@ -131,6 +131,7 @@ Install this project with:
 ### Run tests
 - Run the following script and style test:
 
+      npm start
       npm test
       npx eslint .
       npx stylelint "**/*.{css,scss}"
@@ -181,7 +182,7 @@ Feel free to check the [issues page](https://github.com/FrankMugagga/math-magici
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  We would like to thank Microverse and our coding partners.
+  We would like to thank Microverse and my learning partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
