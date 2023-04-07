@@ -6,10 +6,10 @@
 
 #calBody {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
 }
 
 .container {
@@ -52,4 +52,13 @@
   font-size: 40px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.quote {
+  text-align: center;
+  list-style: none;
+}
+
+.quote > li {
+  font-size: 32px;
 }
