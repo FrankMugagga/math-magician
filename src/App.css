@@ -42,7 +42,6 @@ ul {
   color: green;
 }
 
-
 #calBody {
   display: flex;
   justify-content: space-between;
@@ -77,7 +76,6 @@ ul {
 
 .display:hover {
   background: white;
-
 }
 
 .keypad {
@@ -100,9 +98,9 @@ ul {
 }
 
 .btn0:hover {
-    background: rgb(102, 172, 102);
-    color: white;
-  }
+  background: rgb(102, 172, 102);
+  color: white;
+}
 
 .btn:hover {
   background: rgb(102, 172, 102);
@@ -116,7 +114,7 @@ ul {
   border-bottom-left-radius: 10px;
 }
 
-.operatorBtn:hover{
+.operatorBtn:hover {
   background: white;
   color: blue;
 }
