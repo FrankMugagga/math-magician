@@ -37,6 +37,12 @@ ul {
   text-decoration: none;
 }
 
+.navlink:hover {
+  background: white;
+  color: green;
+}
+
+
 #calBody {
   display: flex;
   justify-content: space-between;
@@ -69,6 +75,11 @@ ul {
   border-top-right-radius: 10px;
 }
 
+.display:hover {
+  background: white;
+
+}
+
 .keypad {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -82,10 +93,20 @@ ul {
 
 .btn0,
 .btn {
-  background: rgba(37, 226, 8, 0.266);
+  background: rgba(200, 231, 195, 0.266);
   font-size: 40px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.btn0:hover {
+    background: rgb(102, 172, 102);
+    color: white;
+  }
+
+.btn:hover {
+  background: rgb(102, 172, 102);
+  color: white;
 }
 
 .operatorBtn {
@@ -93,6 +114,11 @@ ul {
   font-size: 40px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.operatorBtn:hover{
+  background: white;
+  color: blue;
 }
 
 .quote {
