@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Child from './ChildComponent';
 import calculate from '../logic/calculate';
 
 function Calculator() {
@@ -17,7 +16,13 @@ function Calculator() {
   const displayValue = calculatorData.next || calculatorData.total || '0';
 
   return (
+
     <div id="calBody">
+
+      <div className="calHead">
+        Let&apos;s do some math!`
+      </div>
+
       <div className="container">
         <div className="display">{displayValue}</div>
 
@@ -43,7 +48,9 @@ function Calculator() {
           <button className="operatorBtn" type="button" onClick={() => handleClick('=')}>=</button>
         </div>
       </div>
+
     </div>
+
   );
 }
 
