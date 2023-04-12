@@ -31,15 +31,20 @@ function DisplayQuote() {
   if (isLoading) return <div>Loading...</div>;
 
   return (
-    <ul className="quote">
-      {data.map((item) => (
-        <li key={item.id}>
-          <q>{item.quote}</q>
+    <div>
+      <ul className="quote">
+        {data.map((item) => (
+          <li key={item.id}>
+            <q>{item.quote}</q>
           &nbsp;&nbsp;
-          <b>{item.author}</b>
-        </li>
-      ))}
-    </ul>
+            <br />
+            <br />
+            {item.author}
+          </li>
+        ))}
+      </ul>
+    </div>
+
   );
 }
 
