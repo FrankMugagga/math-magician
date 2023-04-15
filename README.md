@@ -6,19 +6,6 @@
 
 </div>
 
-<!-- Open pull request using the following structure
-
-  ## Project title: subtitle
-
-  ### 🌟Branch features:
-
-  - i
-  - ii
-  - iii
-
-  ### [ 🚀 Branch Demo](https://ab-noori.github.io/Project-Template/)
-
--->
 
 > # Math Magicians
 
@@ -86,7 +73,7 @@ Read a random math-related quote.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](Will be available after final approval)
+- [Live Demo](https://frankmugagga-math-magician1.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
