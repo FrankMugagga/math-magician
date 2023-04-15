@@ -11,8 +11,8 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./src/assets/calc2.png" alt="screenshot" width="auto" height="auto"/></div>|
-<!--|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="auto"/></div>|-->
+|<div align="center"><img src="./src/assets/mathMagicianHome.png" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/mathMagicianCalc.png" alt="screenshot" width="auto" height="auto"/></div>|
 
 # 📗 Table of Contents
 
