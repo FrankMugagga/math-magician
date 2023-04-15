@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+nav,
+ul {
+  background-image: linear-gradient(90deg, rgb(61, 137, 61), rgb(210, 195, 195), rgb(29, 227, 223));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainhead {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+ul {
+  width: 40rem;
+  padding-right: 5rem;
+  list-style: none;
+  font-size: 32px;
+  font-weight: 700;
+  background: none;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  background: white;
+  color: green;
+}
+
+#calBody {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10px;
+  background-image: linear-gradient(rgb(225, 232, 221), rgb(206, 226, 206));
+  height: 60vh;
+  border: 2px solid green;
+}
+
+.container {
+  width: 60rem;
+}
+
+.calHead {
+  width: 30%;
+  font-size: 32px;
+  font-weight: 600;
+  color: green;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  height: 8vh;
+  background: grey;
+  font-size: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.display:hover {
+  background: white;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 50vh;
+}
+
+.btn0 {
+  grid-column: 1 / 3;
+  font-size: 40px;
+}
+
+.btn0,
+.btn {
+  background: rgba(200, 231, 195, 0.266);
+  font-size: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.btn0:hover {
+  background: rgb(102, 172, 102);
+  color: white;
+}
+
+.btn:hover {
+  background: rgb(102, 172, 102);
+  color: white;
+}
+
+.operatorBtn {
+  background: rgba(61, 220, 61, 0.382);
+  font-size: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.operatorBtn:hover {
+  background: white;
+  color: blue;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  width: 93%;
+  height: 80vh;
+  margin-top: 0;
+  background-image: linear-gradient(rgb(225, 232, 221), rgb(206, 226, 206));
+  border: 2px solid green;
+}
+
+.quote > li {
+  font-size: 32px;
+  color: rgb(45, 133, 127);
+}
+
+q {
+  color: green;
+}
+
+.homecont {
+  background-image: linear-gradient(rgb(225, 232, 221), rgb(206, 226, 206));
+  height: 80vh;
+  border: 2px solid green;
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 32px;
+  color: green;
+}
+
+p {
+  margin-top: 50px;
+  font-size: 26px;
+  color: rgb(20, 38, 40);
+}
